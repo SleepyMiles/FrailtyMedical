@@ -1,3 +1,11 @@
+## 0.10.2 (Beta)
+- Fixed the real cause of the 0.10.1 problem: the items ran their use on BepInEx' own object, which the game can remove when it loads a scene. Now they run on their own object, so the medical items work without StaticNetcodeLib.
+- StaticNetcodeLib is no longer needed (FrailtyMedical never used it).
+
+## 0.10.1 (Beta)
+- Fixed Medical items did nothing when StaticNetcodeLib was not installed.
+- StaticNetcodeLib (by Xilophor) is now a required dependency.
+
 ## 0.10.0 (Beta)
 
 ### New
