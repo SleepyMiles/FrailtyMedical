@@ -3,7 +3,7 @@
 - StaticNetcodeLib is no longer needed (FrailtyMedical never used it).
 - Fixed: Morphine's revive. The revived player's HUD stayed hidden, and the others couldn't see the revived player.
 - Fixed: a pen used on a teammate didn't give them anything after you left a lobby and hosted or joined another one (the same for revives and the others hearing your items): it works in every lobby now, not just the first one.
-- Fixed: typing part of an item's name in the terminal could buy the wrong thing ("first aid"). The first word of an item's name, or its name written together ("firstaidkit"), now finds the item.
+- Fixed: typing part of an item's name in the terminal could buy the wrong thing ("first aid"). The first word of an item's name, or its name written together ("firstaidkit"), now finds the item. Typing the first two words of the name ("first aid", "belch cola 3") always finds it too, even when the game has its own command for the first word ("first" opens a log).
 - Fixed: without EladsHUD+, the buff icons drifted a little further off with every icon before them. They now line up along the same tilted line as FrailtyPlus' icons.
 - Fixed: on some setups (where BepInEx' own object is removed when the game loads a scene) the mod lost track of the other mods: EladsHUD+'s status row and bar colors, TZPPlus, AdvancedCompany's terminal and TerminalFormatter weren't found.
 - Buff icons without EladsHUD+: the frame moves like FrailtyPlus' icons (its dashes change a few times a second), and debuff pictures slowly pulse red, like FrailtyPlus' injuries.
