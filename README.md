@@ -55,6 +55,8 @@ The bars change color too (EladsHUD+'s health and stamina bars, and the game's s
 
 The medical items, the TZP-Inhalant and UsualScrap's Bandages / Medical Kit get a **MEDICAL** section on the store page (vanilla terminal, TerminalFormatter and the AdvancedCompany mobile terminal). With Drinkable, its DRINKS section comes after it.
 
+The first word of an item's name is enough in the terminal: `first` (or `first aid kit`, `buy first 2`) is the First Aid Kit. The game's first log (Sigurd's) is `log first` instead.
+
 ## Config
 
 Not configurable during the beta, to keep it bug-free: every player gets the same tested values (prices, uses, use times, durations, Borrowed Time health and time, ...). A config file can't change them. Full config is planned (see Future plans).
