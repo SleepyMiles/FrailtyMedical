@@ -6,6 +6,7 @@
 - Fixed: typing part of an item's name in the terminal could buy the wrong thing ("first aid"). The first word of an item's name, or its name written together ("firstaidkit"), now finds the item.
 - Fixed: without EladsHUD+, the buff icons drifted a little further off with every icon before them. They now line up along the same tilted line as FrailtyPlus' icons.
 - Fixed: on some setups (where BepInEx' own object is removed when the game loads a scene) the mod lost track of the other mods: EladsHUD+'s status row and bar colors, TZPPlus, AdvancedCompany's terminal and TerminalFormatter weren't found.
+- Buff icons without EladsHUD+: the frame moves like FrailtyPlus' icons (its dashes change a few times a second), and debuff pictures slowly pulse red, like FrailtyPlus' injuries.
 
 ## 0.10.1 (Beta)
 - Fixed Medical items did nothing when StaticNetcodeLib was not installed.
