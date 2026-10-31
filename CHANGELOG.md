@@ -1,6 +1,9 @@
 ## 0.10.2 (Beta)
 - Fixed the real cause of the 0.10.1 problem: the items ran their use on BepInEx' own object, which the game can remove when it loads a scene. Now they run on their own object, so the medical items work without StaticNetcodeLib.
 - StaticNetcodeLib is no longer needed (FrailtyMedical never used it).
+- Fixed: Morphine's revive. The revived player's HUD stayed hidden, and the others couldn't see the revived player.
+- Fixed: a pen used on a teammate didn't give them anything after you left a lobby and hosted or joined another one (the same for revives and the others hearing your items): it works in every lobby now, not just the first one.
+- Fixed: typing part of an item's name in the terminal could buy the wrong thing ("first aid"). The first word of an item's name, or its name written together ("firstaidkit"), now finds the item.
 
 ## 0.10.1 (Beta)
 - Fixed Medical items did nothing when StaticNetcodeLib was not installed.
