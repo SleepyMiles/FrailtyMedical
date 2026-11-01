@@ -8,6 +8,8 @@
 - Fixed: on some setups (where BepInEx' own object is removed when the game loads a scene) the mod lost track of the other mods: EladsHUD+'s status row and bar colors, TZPPlus, AdvancedCompany's terminal and TerminalFormatter weren't found.
 - Buff icons without EladsHUD+: the frame moves like FrailtyPlus' icons (its dashes change a few times a second), and debuff pictures slowly pulse red, like FrailtyPlus' injuries.
 
+<img src="https://raw.githubusercontent.com/SleepyMiles/FrailtyMedical/main/images/changes_0_10_2_frames.gif" width="720">
+
 ## 0.10.1 (Beta)
 - Fixed Medical items did nothing when StaticNetcodeLib was not installed.
 - StaticNetcodeLib (by Xilophor) is now a required dependency.
