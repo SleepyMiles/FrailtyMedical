@@ -1,3 +1,6 @@
+## 0.10.3 (Beta)
+- Fixed: with OpenBodyCams, after the ship monitor switched to someone's body cam, that player stayed in "body cam" mode: they saw the inside of their own head, and everyone else saw only their floating arms up close (the whole body only from further away). FrailtyMedical's OpenBodyCams support kept OpenBodyCams from putting the player back to normal; now it only reads what it needs before the camera draws.
+
 ## 0.10.2 (Beta)
 - Fixed the real cause of the 0.10.1 problem: the items ran their use on BepInEx' own object, which the game can remove when it loads a scene. Now they run on their own object, so the medical items work without StaticNetcodeLib.
 - StaticNetcodeLib is no longer needed (FrailtyMedical never used it).
